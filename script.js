@@ -192,8 +192,8 @@ function checkForMatch() {
         firstCard.classList.add('correct');   
         secondCard.classList.add('correct');
         setTimeout(() => {  
-            firstCard.classList.add('hidden'); 
-            secondCard.classList.add('hidden');
+            firstCard.classList.add('fade-out'); 
+            secondCard.classList.add('fade-out');
             resetCards();
             updateProgressTest();
             setTimeout(checkEndGame, 500);

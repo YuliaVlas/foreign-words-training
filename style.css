@@ -197,6 +197,7 @@ progress {
 .fade-out {
   animation: fadeOut ease 1.5s;
   animation-fill-mode: forwards;
+  pointer-events: none;
 }
 
 .exam-card.wrong {
@@ -235,7 +236,7 @@ progress {
 .results-modal {
   position: absolute;
   z-index: 100;
-  width: 400px;
+  width: 600px;
   max-height: 60%;
   overflow: scroll;
   padding: 10px 20px;
