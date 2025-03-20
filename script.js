@@ -328,4 +328,4 @@ window.onload = () => {
 nextButton.addEventListener('click', saveProgress);  
 backButton.addEventListener('click', saveProgress);  
 document.getElementById('shuffle-words').addEventListener('click', saveProgress);  
-examButton.addEventListener('click', saveProgress); 
+examButton.addEventListener('click', saveProgress);
