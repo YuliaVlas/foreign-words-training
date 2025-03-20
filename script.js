@@ -324,8 +324,7 @@ function loadProgress() {
 window.onload = () => {  
     loadProgress();
 };  
-
-// После старта режима тренировки или тестирования сохраняем прогресс  
+ 
 nextButton.addEventListener('click', saveProgress);  
 backButton.addEventListener('click', saveProgress);  
 document.getElementById('shuffle-words').addEventListener('click', saveProgress);  
