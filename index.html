@@ -37,13 +37,14 @@
                 <div class="flip-card-inner">
                   <div class="flip-card-front">
                     <div id="card-front">
-                      <h1></h1>
+                      <h1 class="front-word"></h1>
+                      <img class="word-image" src="" alt="Изображение слова">
                     </div>
                   </div>
                   <div class="flip-card-back" id="card-back">
                     <div>
-                      <h1></h1>
-                      <p><b>Пример:</b> <span></span></p>
+                      <h1 class="back-word"></h1>
+                      <p><b>Пример:</b> <span class="word-example"></span></p>
                     </div>
                   </div>
                 </div>
@@ -60,7 +61,7 @@
         <div class="motivation">Давай, ты сможешь!</div>
       </main>
       <div class="results-modal hidden">
-        <h1>Твоя статистика 🥺💜</h1>
+        <h1>Твоя статистика</h1>
         <div class="results-content"></div>
         <p><b>Время:</b> <span class="time" id="timer">00:00</span></p>
         <template id="word-stats">
